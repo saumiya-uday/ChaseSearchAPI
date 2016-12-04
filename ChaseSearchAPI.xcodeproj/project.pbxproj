@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F8B177CEB5B2785EF3E572 /* libPods-ChaseSearchAPITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F304147102850C80F00CD7B /* libPods-ChaseSearchAPITests.a */; };
+		F46E1AA81DF43036009A19D7 /* ChaseSearchAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1AA71DF43036009A19D7 /* ChaseSearchAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46E1AAF1DF43036009A19D7 /* ChaseSearchAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46E1AA41DF43036009A19D7 /* ChaseSearchAPI.framework */; };
+		F46E1AB41DF43036009A19D7 /* ChaseSearchAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1AB31DF43036009A19D7 /* ChaseSearchAPITests.m */; };
+		F46E1AD41DF431D6009A19D7 /* WebServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1AC31DF431D6009A19D7 /* WebServiceManager.h */; };
+		F46E1AD51DF431D6009A19D7 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1AC41DF431D6009A19D7 /* WebServiceManager.m */; };
+		F46E1AD61DF431D6009A19D7 /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1AC61DF431D6009A19D7 /* LocationManager.h */; };
+		F46E1AD71DF431D6009A19D7 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1AC71DF431D6009A19D7 /* LocationManager.m */; };
+		F46E1AD81DF431D6009A19D7 /* AlertUser.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1AC91DF431D6009A19D7 /* AlertUser.h */; };
+		F46E1AD91DF431D6009A19D7 /* AlertUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1ACA1DF431D6009A19D7 /* AlertUser.m */; };
+		F46E1ADA1DF431D6009A19D7 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1ACB1DF431D6009A19D7 /* MBProgressHUD.h */; };
+		F46E1ADB1DF431D6009A19D7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1ACC1DF431D6009A19D7 /* MBProgressHUD.m */; };
+		F46E1ADC1DF431D6009A19D7 /* NSString+StringAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1ACD1DF431D6009A19D7 /* NSString+StringAdditional.h */; };
+		F46E1ADD1DF431D6009A19D7 /* NSString+StringAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1ACE1DF431D6009A19D7 /* NSString+StringAdditional.m */; };
+		F46E1ADE1DF431D6009A19D7 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1ACF1DF431D6009A19D7 /* Reachability.h */; };
+		F46E1ADF1DF431D6009A19D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1AD01DF431D6009A19D7 /* Reachability.m */; };
+		F46E1AE01DF431D6009A19D7 /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = F46E1AD21DF431D6009A19D7 /* Location.h */; };
+		F46E1AE11DF431D6009A19D7 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F46E1AD31DF431D6009A19D7 /* Location.m */; };
+		FC4070E33E7F8A1C81AD1D1C /* libPods-ChaseSearchAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B04339160163BE6A462D83A5 /* libPods-ChaseSearchAPI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46E1AB01DF43036009A19D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46E1A9B1DF43036009A19D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46E1AA31DF43036009A19D7;
+			remoteInfo = ChaseSearchAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E41D48D161476A33F03A50 /* Pods-ChaseSearchAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseSearchAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseSearchAPI/Pods-ChaseSearchAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		206710202B6FD8DD4C05B832 /* Pods-ChaseSearchAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseSearchAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseSearchAPITests/Pods-ChaseSearchAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73A1630EA55A8E0619EF2BE9 /* Pods-ChaseSearchAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseSearchAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseSearchAPI/Pods-ChaseSearchAPI.release.xcconfig"; sourceTree = "<group>"; };
+		7E2C50462C5E8451C97C19B8 /* Pods-ChaseSearchAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseSearchAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseSearchAPITests/Pods-ChaseSearchAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F304147102850C80F00CD7B /* libPods-ChaseSearchAPITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaseSearchAPITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04339160163BE6A462D83A5 /* libPods-ChaseSearchAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaseSearchAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46E1AA41DF43036009A19D7 /* ChaseSearchAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChaseSearchAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46E1AA71DF43036009A19D7 /* ChaseSearchAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaseSearchAPI.h; sourceTree = "<group>"; };
+		F46E1AA91DF43036009A19D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46E1AAE1DF43036009A19D7 /* ChaseSearchAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseSearchAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46E1AB31DF43036009A19D7 /* ChaseSearchAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaseSearchAPITests.m; sourceTree = "<group>"; };
+		F46E1AB51DF43036009A19D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46E1AC31DF431D6009A19D7 /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		F46E1AC41DF431D6009A19D7 /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		F46E1AC61DF431D6009A19D7 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		F46E1AC71DF431D6009A19D7 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		F46E1AC91DF431D6009A19D7 /* AlertUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertUser.h; sourceTree = "<group>"; };
+		F46E1ACA1DF431D6009A19D7 /* AlertUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertUser.m; sourceTree = "<group>"; };
+		F46E1ACB1DF431D6009A19D7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F46E1ACC1DF431D6009A19D7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F46E1ACD1DF431D6009A19D7 /* NSString+StringAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringAdditional.h"; sourceTree = "<group>"; };
+		F46E1ACE1DF431D6009A19D7 /* NSString+StringAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringAdditional.m"; sourceTree = "<group>"; };
+		F46E1ACF1DF431D6009A19D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F46E1AD01DF431D6009A19D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F46E1AD21DF431D6009A19D7 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F46E1AD31DF431D6009A19D7 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46E1AA01DF43036009A19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4070E33E7F8A1C81AD1D1C /* libPods-ChaseSearchAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46E1AAB1DF43036009A19D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46E1AAF1DF43036009A19D7 /* ChaseSearchAPI.framework in Frameworks */,
+				07F8B177CEB5B2785EF3E572 /* libPods-ChaseSearchAPITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBEF3E30EF62B85AB70CDF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E41D48D161476A33F03A50 /* Pods-ChaseSearchAPI.debug.xcconfig */,
+				73A1630EA55A8E0619EF2BE9 /* Pods-ChaseSearchAPI.release.xcconfig */,
+				206710202B6FD8DD4C05B832 /* Pods-ChaseSearchAPITests.debug.xcconfig */,
+				7E2C50462C5E8451C97C19B8 /* Pods-ChaseSearchAPITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		152B5C2F560CA73E42474ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04339160163BE6A462D83A5 /* libPods-ChaseSearchAPI.a */,
+				9F304147102850C80F00CD7B /* libPods-ChaseSearchAPITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46E1A9A1DF43036009A19D7 = {
+			isa = PBXGroup;
+			children = (
+				F46E1AA61DF43036009A19D7 /* ChaseSearchAPI */,
+				F46E1AB21DF43036009A19D7 /* ChaseSearchAPITests */,
+				F46E1AA51DF43036009A19D7 /* Products */,
+				0FBEF3E30EF62B85AB70CDF7 /* Pods */,
+				152B5C2F560CA73E42474ADB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46E1AA51DF43036009A19D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AA41DF43036009A19D7 /* ChaseSearchAPI.framework */,
+				F46E1AAE1DF43036009A19D7 /* ChaseSearchAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46E1AA61DF43036009A19D7 /* ChaseSearchAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AC21DF431D6009A19D7 /* ATMService */,
+				F46E1AC51DF431D6009A19D7 /* Common */,
+				F46E1AC81DF431D6009A19D7 /* Helpers */,
+				F46E1AD11DF431D6009A19D7 /* Model */,
+				F46E1AA71DF43036009A19D7 /* ChaseSearchAPI.h */,
+				F46E1AA91DF43036009A19D7 /* Info.plist */,
+			);
+			path = ChaseSearchAPI;
+			sourceTree = "<group>";
+		};
+		F46E1AB21DF43036009A19D7 /* ChaseSearchAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AB31DF43036009A19D7 /* ChaseSearchAPITests.m */,
+				F46E1AB51DF43036009A19D7 /* Info.plist */,
+			);
+			path = ChaseSearchAPITests;
+			sourceTree = "<group>";
+		};
+		F46E1AC21DF431D6009A19D7 /* ATMService */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AC31DF431D6009A19D7 /* WebServiceManager.h */,
+				F46E1AC41DF431D6009A19D7 /* WebServiceManager.m */,
+			);
+			path = ATMService;
+			sourceTree = "<group>";
+		};
+		F46E1AC51DF431D6009A19D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AC61DF431D6009A19D7 /* LocationManager.h */,
+				F46E1AC71DF431D6009A19D7 /* LocationManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F46E1AC81DF431D6009A19D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AC91DF431D6009A19D7 /* AlertUser.h */,
+				F46E1ACA1DF431D6009A19D7 /* AlertUser.m */,
+				F46E1ACB1DF431D6009A19D7 /* MBProgressHUD.h */,
+				F46E1ACC1DF431D6009A19D7 /* MBProgressHUD.m */,
+				F46E1ACD1DF431D6009A19D7 /* NSString+StringAdditional.h */,
+				F46E1ACE1DF431D6009A19D7 /* NSString+StringAdditional.m */,
+				F46E1ACF1DF431D6009A19D7 /* Reachability.h */,
+				F46E1AD01DF431D6009A19D7 /* Reachability.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F46E1AD11DF431D6009A19D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F46E1AD21DF431D6009A19D7 /* Location.h */,
+				F46E1AD31DF431D6009A19D7 /* Location.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F46E1AA11DF43036009A19D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46E1AD81DF431D6009A19D7 /* AlertUser.h in Headers */,
+				F46E1AE01DF431D6009A19D7 /* Location.h in Headers */,
+				F46E1AD61DF431D6009A19D7 /* LocationManager.h in Headers */,
+				F46E1ADC1DF431D6009A19D7 /* NSString+StringAdditional.h in Headers */,
+				F46E1ADA1DF431D6009A19D7 /* MBProgressHUD.h in Headers */,
+				F46E1AA81DF43036009A19D7 /* ChaseSearchAPI.h in Headers */,
+				F46E1AD41DF431D6009A19D7 /* WebServiceManager.h in Headers */,
+				F46E1ADE1DF431D6009A19D7 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F46E1AA31DF43036009A19D7 /* ChaseSearchAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46E1AB81DF43036009A19D7 /* Build configuration list for PBXNativeTarget "ChaseSearchAPI" */;
+			buildPhases = (
+				E8069C55B64A8C5E8C6E943F /* [CP] Check Pods Manifest.lock */,
+				F46E1A9F1DF43036009A19D7 /* Sources */,
+				F46E1AA01DF43036009A19D7 /* Frameworks */,
+				F46E1AA11DF43036009A19D7 /* Headers */,
+				F46E1AA21DF43036009A19D7 /* Resources */,
+				C8D81440EA3AD0059455D781 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaseSearchAPI;
+			productName = ChaseSearchAPI;
+			productReference = F46E1AA41DF43036009A19D7 /* ChaseSearchAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F46E1AAD1DF43036009A19D7 /* ChaseSearchAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46E1ABB1DF43036009A19D7 /* Build configuration list for PBXNativeTarget "ChaseSearchAPITests" */;
+			buildPhases = (
+				F0C22AB65FA0BCBA56A3C46D /* [CP] Check Pods Manifest.lock */,
+				F46E1AAA1DF43036009A19D7 /* Sources */,
+				F46E1AAB1DF43036009A19D7 /* Frameworks */,
+				F46E1AAC1DF43036009A19D7 /* Resources */,
+				766230ED6D98B4814771D91F /* [CP] Embed Pods Frameworks */,
+				6822B7D1BCA1833A9CA78C86 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46E1AB11DF43036009A19D7 /* PBXTargetDependency */,
+			);
+			name = ChaseSearchAPITests;
+			productName = ChaseSearchAPITests;
+			productReference = F46E1AAE1DF43036009A19D7 /* ChaseSearchAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46E1A9B1DF43036009A19D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Saumiya;
+				TargetAttributes = {
+					F46E1AA31DF43036009A19D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F46E1AAD1DF43036009A19D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F46E1A9E1DF43036009A19D7 /* Build configuration list for PBXProject "ChaseSearchAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F46E1A9A1DF43036009A19D7;
+			productRefGroup = F46E1AA51DF43036009A19D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46E1AA31DF43036009A19D7 /* ChaseSearchAPI */,
+				F46E1AAD1DF43036009A19D7 /* ChaseSearchAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46E1AA21DF43036009A19D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46E1AAC1DF43036009A19D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6822B7D1BCA1833A9CA78C86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseSearchAPITests/Pods-ChaseSearchAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766230ED6D98B4814771D91F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseSearchAPITests/Pods-ChaseSearchAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D81440EA3AD0059455D781 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseSearchAPI/Pods-ChaseSearchAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8069C55B64A8C5E8C6E943F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C22AB65FA0BCBA56A3C46D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46E1A9F1DF43036009A19D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46E1AD91DF431D6009A19D7 /* AlertUser.m in Sources */,
+				F46E1AE11DF431D6009A19D7 /* Location.m in Sources */,
+				F46E1AD71DF431D6009A19D7 /* LocationManager.m in Sources */,
+				F46E1ADD1DF431D6009A19D7 /* NSString+StringAdditional.m in Sources */,
+				F46E1AD51DF431D6009A19D7 /* WebServiceManager.m in Sources */,
+				F46E1ADF1DF431D6009A19D7 /* Reachability.m in Sources */,
+				F46E1ADB1DF431D6009A19D7 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46E1AAA1DF43036009A19D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46E1AB41DF43036009A19D7 /* ChaseSearchAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46E1AB11DF43036009A19D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46E1AA31DF43036009A19D7 /* ChaseSearchAPI */;
+			targetProxy = F46E1AB01DF43036009A19D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F46E1AB61DF43036009A19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F46E1AB71DF43036009A19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F46E1AB91DF43036009A19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E41D48D161476A33F03A50 /* Pods-ChaseSearchAPI.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChaseSearchAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soms.ChaseSearchAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F46E1ABA1DF43036009A19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A1630EA55A8E0619EF2BE9 /* Pods-ChaseSearchAPI.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChaseSearchAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soms.ChaseSearchAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F46E1ABC1DF43036009A19D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206710202B6FD8DD4C05B832 /* Pods-ChaseSearchAPITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ChaseSearchAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soms.ChaseSearchAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F46E1ABD1DF43036009A19D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2C50462C5E8451C97C19B8 /* Pods-ChaseSearchAPITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ChaseSearchAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soms.ChaseSearchAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46E1A9E1DF43036009A19D7 /* Build configuration list for PBXProject "ChaseSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E1AB61DF43036009A19D7 /* Debug */,
+				F46E1AB71DF43036009A19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46E1AB81DF43036009A19D7 /* Build configuration list for PBXNativeTarget "ChaseSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E1AB91DF43036009A19D7 /* Debug */,
+				F46E1ABA1DF43036009A19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46E1ABB1DF43036009A19D7 /* Build configuration list for PBXNativeTarget "ChaseSearchAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E1ABC1DF43036009A19D7 /* Debug */,
+				F46E1ABD1DF43036009A19D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46E1A9B1DF43036009A19D7 /* Project object */;
+}
